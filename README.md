@@ -1,5 +1,10 @@
 # NLP-Fake-News-Detection
 
+## Dataset Used
+<a href="https://ieee-dataport.org/open-access/fnid-fake-news-inference-dataset">
+    FNID Fake News Inference Dataset
+</a>
+
 ## Several Classifiers with Annova Test
 
 |Classifiers |Accuracy|CM                    |F1 Score|Precision|Recall|
