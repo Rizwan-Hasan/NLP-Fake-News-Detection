@@ -1,4 +1,4 @@
-# NLP-Fake-News-Detection
+# An investigation into an automatic detection of fake News using extreme gradient boosting approach
 
 ## Dataset Used
 <a href="https://ieee-dataport.org/open-access/fnid-fake-news-inference-dataset">
