@@ -1,0 +1,17 @@
+gensim
+jupyter
+jupyterlab
+nltk
+numpy
+openpyxl
+pandas
+seaborn
+sklearn
+stopwords
+tqdm
+wordcloud
+xlrd
+xlwt
+yapf
+yellowbrick
+xgboost
