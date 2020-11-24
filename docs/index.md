@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# NLP-Fake-News-Detection
 
-You can use the [editor on GitHub](https://github.com/Rizwan-Hasan/NLP-Fake-News-Detection/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## Dataset Used
+<a href="https://ieee-dataport.org/open-access/fnid-fake-news-inference-dataset">
+    FNID Fake News Inference Dataset
+</a>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Several Classifiers with Annova Test
 
-### Markdown
+|Classifiers |Accuracy|CM                    |F1 Score|Precision|Recall|
+|-------------|--------|---------------------|--------|---------|------|
+|XgBoost      |79.45%  |911 265 <br/> 169 767|80.76%  |84.35%   |77.47%|
+|SVM          |77.23%  |875 301 <br/> 180 756|78.44%  |82.94%   |74.40%|
+|Logistic Reg |77.70%  |872 304 <br/> 167 769|78.74%  |83.93%   |74.15%|
+|Naive Bayes  |69.79%  |743 433 <br/> 205 731|69.96%  |78.38%   |63.18%|
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Rizwan-Hasan/NLP-Fake-News-Detection/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Several Classifiers without Annova Test
+|Classifiers  |Accuracy|CM                   |F1 Score|Precision|Recall|
+|-------------|--------|---------------------|--------|---------|------|
+|XgBoost      |79.16%  |898 278 <br/> 162 774|80.16%  |84.72%   |76.36%|
+|SVM          |76.23%  |859 317 <br/> 185 751|77.39%  |82.28%   |73.04%|
+|Logistic Reg |76.33%  |860 316 <br/> 184 752|77.48%  |82.38%   |73.13%|
+|Naive Bayes  |71.21%  |778 398 <br/> 210 726|71.90%  |78.74%   |66.16%|
